@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .contact {
+    padding-top: 100px;
+  }
+  .contact .title {
+    font-size: 20px;
+    color: #d9ed92;
+  }
+  .contact .title span {
+    color: #d9ed92;
+  }
+  .contact .intro {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .contact .desc {
+    text-align: center;
+    padding: 30px 0px;
+    color: #34a0a4;
+  }
+  .contact .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .btn .hello {
+    font-size: 18px;
+    border: 1px solid #d9ed92;
+    padding: 5px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .contact .social {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .social a {
+    font-size: 40px;
+    margin: 20px 10px;
+  }
+  .contact .gif {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .contact {
+    padding: 150px 0;
+  }
+  .contact .title {
+    font-size: 20px;
+    color: #d9ed92;
+  }
+  .contact .title span {
+    color: #d9ed92;
+  }
+  .contact .intro {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .contact .desc {
+    text-align: center;
+    padding: 30px 0px;
+    color: #34a0a4;
+    margin: 0 15%;
+  }
+  .contact .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .btn .hello {
+    font-size: 18px;
+    border: 1px solid #d9ed92;
+    padding: 5px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .contact .social {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .social a {
+    font-size: 40px;
+    margin: 20px 10px;
+  }
+  .contact .gif {
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0 0 0;
+  }
+  .contact .content .title {
+    font-size: 20px;
+    color: #d9ed92;
+  }
+  .contact .content .title span {
+    color: #d9ed92;
+  }
+  .contact .content {
+    display: grid;
+    width: 500px;
+  }
+  .contact .content .intro {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    background: transparent;
+  }
+  .contact .content .desc {
+    text-align: center;
+    padding: 30px 0px;
+    color: #34a0a4;
+    margin: 0 15%;
+    background: transparent;
+  }
+  .contact .content .btn {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+  }
+  .contact .content .btn .hello {
+    font-size: 18px;
+    border: 1px solid #d9ed92;
+    padding: 5px 40px;
+    cursor: pointer;
+    background: transparent;
+  }
+  .contact .content .btn .hello:hover{
+    background-color: #d9ed92;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+  }
+  .contact .content .social {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .content .social a {
+    font-size: 40px;
+    margin: 20px 10px;
+  }
+}
