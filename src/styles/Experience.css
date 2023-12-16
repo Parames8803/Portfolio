@@ -140,7 +140,7 @@
     align-items: center;
   }
   .experience button {
-    font-size: 15px;
+    font-size: 18px;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
@@ -165,7 +165,7 @@
   }
   .experience .tab-content .card .title {
     margin: 10px 0px;
-    font-size: 18px;
+    font-size: 20px;
   }
   .experience .tab-content .card .timeline {
     font-size: 14px;

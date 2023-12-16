@@ -28,7 +28,12 @@
     border: 1px solid #d9ed92;
     padding: 5px 40px;
     cursor: pointer;
-    border-radius: 5px;
+  }
+  .contact .content .btn .hello:hover{
+    background-color: #d9ed92;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
   }
   .contact .social {
     display: flex;
@@ -71,9 +76,14 @@
   .contact .btn .hello {
     font-size: 18px;
     border: 1px solid #d9ed92;
-    padding: 5px 40px;
+    padding: 5px 20px;
     cursor: pointer;
-    border-radius: 5px;
+  }
+  .contact .content .btn .hello:hover{
+    background-color: #d9ed92;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
   }
   .contact .social {
     display: flex;
@@ -125,7 +135,7 @@
   .contact .content .btn .hello {
     font-size: 18px;
     border: 1px solid #d9ed92;
-    padding: 5px 40px;
+    padding: 3px 30px;
     cursor: pointer;
     background: transparent;
   }

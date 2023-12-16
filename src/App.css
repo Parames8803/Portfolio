@@ -29,6 +29,7 @@
 @media screen and (min-width: 900px) {
   .app {
     background-color: black;
+    width: 100%;
   }
   .app .page {
     padding: 0 5% 5% 5%;
