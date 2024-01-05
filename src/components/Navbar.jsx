@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt3 } from "react-icons/hi";
 import "../styles/Navbar.css";
@@ -22,20 +23,20 @@ const Navbar = () => {
     <div className="navbar">
       {navLinks && (
         <div className="modal">
-          <a href="/">01. Home</a>
-          <a href="/about">02. About</a>
-          <a href="/experience">03. Experience</a>
-          <a href="/work">04. Work</a>
-          <a href="/contact">05. Contact</a>
+          <Link to="/">01. Home</Link>
+          <Link to="/about">02. About</Link>
+          <Link to="/experience">03. Experience</Link>
+          <Link to="/work">04. Work</Link>
+          <Link to="/contact">05. Contact</Link>
         </div>
       )}
       <div className="logo">PE</div>
       <div className="links">
-        <a href="/">01. Home</a>
-        <a href="/about">02. About</a>
-        <a href="/experience">03. Experience</a>
-        <a href="/work">04. Work</a>
-        <a href="/contact">05. Contact</a>
+        <Link to="/">01. Home</Link>
+        <Link to="/about">02. About</Link>
+        <Link to="/experience">03. Experience</Link>
+        <Link to="/work">04. Work</Link>
+        <Link to="/contact">05. Contact</Link>
       </div>
       <div className="menu">
         {menuToggle === false ? (
