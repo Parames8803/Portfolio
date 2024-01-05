@@ -55,9 +55,6 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
-  /* .home {
-    padding: 100px 0 0 0;
-  } */
   .home .user {
     display: none;
   }

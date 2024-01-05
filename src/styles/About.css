@@ -1,7 +1,4 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
-  .about{
-    margin: 10%;
-  }
   .about .title {
     font-size: 20px;
     color: tomato;
@@ -42,9 +39,6 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
-  .about {
-    padding: 150px 0 0 0;
-  }
   .about .bigContent {
     display: none;
   }
@@ -93,7 +87,6 @@
   }
   .about {
     padding: 0px 80px;
-    height: 100vh;
   }
   .about .title {
     font-size: 25px;

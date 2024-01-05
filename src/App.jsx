@@ -21,11 +21,6 @@ function App() {
         <div className="app">
           <Navbar />
           <div className="page">
-            {/* <Home/>
-            <About/>
-            <Experience/>
-            <Work/>
-            <Contact/> */}
             <Routes>
               <Route index path="/" Component={Home} />
               <Route path="/about" Component={About} />

@@ -67,9 +67,6 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
-  .contact {
-    padding: 150px 0;
-  }
   .contact .title {
     font-size: 20px;
     color: #d9ed92;
