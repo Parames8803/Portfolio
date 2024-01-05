@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
+  .about{
+    padding-bottom: 50px;
+  }
   .about .title {
     font-size: 20px;
     color: tomato;

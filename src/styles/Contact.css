@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
+  .contact{
+    padding-bottom: 50px;
+  }
   .contact .content .title {
     font-size: 20px;
     color: tomato;
@@ -130,6 +133,7 @@
 @media screen and (min-width: 900px) {
   .contact {
     display: flex;
+    justify-content: space-between;
     padding: 0px 80px;
   }
   .contact .content .title {

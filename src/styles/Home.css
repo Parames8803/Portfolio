@@ -4,12 +4,12 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
   }
   .home .user img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    /* border: 1px solid gray; */
   }
   .home .content{
     display: flex;
@@ -117,7 +117,7 @@
     width: 500px;
   }
   .home .content {
-    padding: 20px 80px;
+    padding: 0px 80px;
   }
   .home .content .title {
     font-size: 25px;

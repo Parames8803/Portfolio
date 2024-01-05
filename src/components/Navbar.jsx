@@ -32,11 +32,11 @@ const Navbar = () => {
       )}
       <div className="logo">PE</div>
       <div className="links">
-        <Link to="/">01. Home</Link>
-        <Link to="/about">02. About</Link>
-        <Link to="/experience">03. Experience</Link>
-        <Link to="/work">04. Work</Link>
-        <Link to="/contact">05. Contact</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/experience">Experience</Link>
+        <Link to="/work">Work</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="menu">
         {menuToggle === false ? (

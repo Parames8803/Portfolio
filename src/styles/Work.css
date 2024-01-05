@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
+  .work{
+    padding-bottom: 50px;
+  }
   .work .title {
     font-size: 20px;
     color: tomato;
