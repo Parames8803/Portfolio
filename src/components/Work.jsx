@@ -11,7 +11,7 @@ const Work = () => {
   }, []);
   return (
     <div className="work" id="4" data-aos="zoom-in" data-aos-duration="1500">
-      <div className="title">{"04. Works/>"}</div>
+      <div className="title"><span>04. </span>Work{"/>"}</div>
       <div className="cards">
         <div className="card" data-aos="flip-left">
           <div className="head">

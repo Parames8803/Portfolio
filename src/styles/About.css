@@ -1,13 +1,11 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
-  .about {
-    padding-top: 100px;
-  }
   .about .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .about .title span {
-    color: #d9ed92;
+    color: blue;
   }
   .about .content {
     margin-top: 50px;
@@ -26,16 +24,18 @@
   }
   .about .line .code {
     font-size: 15px;
-    color: white;
+    color: black;
+    /* font-style: italic; */
+    font-family: fantasy;
   }
   .about .line .code .keyWord {
-    color: #d9ed92;
+    color: brown;
   }
   .about .line .code .comments {
     color: gray;
   }
   .about .line .code .brackets {
-    color: #34a0a4;
+    color: blue;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -81,21 +81,25 @@
   }
 }
 @media screen and (min-width: 900px) {
-  *,*::before,*::after {
+  *,
+  *::before,
+  *::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
   }
-  .about{
-    width: 100%;
-    padding: 150px 0;
+  .about {
+    padding: 0px 80px;
+    height: 100vh;
   }
   .about .title {
     font-size: 25px;
-    color: #d9ed92;
+    font-weight: bold;
+    color: tomato;
   }
   .about .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .about .content {
     display: none;
@@ -107,8 +111,8 @@
   }
   .about .bigContent .desc {
     font-size: 58px;
-    color: gray;
-    font-family: 'Bowlby One', sans-serif;
+    color: rgb(27, 27, 27);
+    font-family: "Bowlby One", sans-serif;
   }
   .about .bigContent .cards {
     display: flex;
@@ -125,11 +129,11 @@
     transform: scale(1);
     opacity: 1;
     cursor: pointer;
-    transition: all 150ms ease-in-out; 
+    transition: all 150ms ease-in-out;
     &:nth-child(even) {
       transform: translateY(8px);
     }
-    
+
     &:nth-child(n) {
       transform: rotate(-5deg);
     }
@@ -144,7 +148,7 @@
       border-radius: 50%;
       box-shadow: inset 0 0 3px #bb86fc;
       background-color: transparent;
-      
+
       position: absolute;
       right: 0;
     }
@@ -165,12 +169,13 @@
   }
   .about .bigContent .cards .card1 button a {
     text-decoration: none;
+    color: white;
     font-size: 18px;
     background-color: rgb(27, 27, 27);
   }
   .about .bigContent .cards:hover > .card1:hover {
     transform: scale(1.15);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 10;
   }
   .about .bigContent .cards:hover > .card1:not(:hover) {
@@ -186,11 +191,11 @@
     pointer-events: auto;
     transform: scale(1);
     opacity: 1;
-    transition: all 150ms ease-in-out; 
+    transition: all 150ms ease-in-out;
     &:nth-child(even) {
       transform: translateY(8px);
     }
-    
+
     &:nth-child(n) {
       transform: rotate(5deg);
     }
@@ -205,7 +210,7 @@
       border-radius: 50%;
       box-shadow: inset 0 0 3px #bb86fc;
       background-color: transparent;
-      
+
       position: absolute;
       right: 0;
     }
@@ -227,11 +232,12 @@
   .about .bigContent .cards .card2 button a {
     text-decoration: none;
     font-size: 18px;
+    color: white;
     background-color: rgb(27, 27, 27);
   }
   .about .bigContent .cards:hover > .card2:hover {
     transform: scale(1.15);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 10;
   }
   .about .bigContent .cards:hover > .card2:not(:hover) {

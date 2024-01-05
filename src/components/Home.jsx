@@ -1,7 +1,8 @@
 import AOS from "aos";
 import React, { useEffect } from "react";
-import userHome from "../assets/images/user.jpg";
+import userHome from "../assets/images/user.png";
 import "../styles/Home.css";
+import Animation from "./Animation";
 
 const Home = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Home = () => {
         <div className="intro">
           Hi , I am
           <br />
-          <span>Parameswaran</span>
+          <span>PARAMESWARAN</span>
           <br />i <i>design</i> and Develop Websites
         </div>
         <div className="desc">
@@ -32,7 +33,7 @@ const Home = () => {
         </button>
       </div>
       <div className="user">
-        <img src={userHome} width={400} height={400} />
+        <img src={userHome} />
       </div>
     </div>
   );

@@ -1,13 +1,11 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
-  .experience {
-    padding-top: 100px;
-  }
   .experience .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .experience .title span {
-    color: #d9ed92;
+    color: blue;
   }
   .experience .buttons {
     display: flex;
@@ -28,10 +26,10 @@
     height: 60px;
     width: auto;
     font-weight: bold;
-    color: #34a0a4;
+    color: black;
   }
   .experience button.active {
-    border-bottom: 3px solid #d9ed92;
+    border-bottom: 3px solid brown;
   }
   .experience .content {
     transition: opacity 5s ease;
@@ -42,6 +40,9 @@
   .experience .tab-content .card .title {
     margin: 10px 0px;
     font-size: 18px;
+  }
+  .experience .tab-content .card .title span{
+    color: brown;
   }
   .experience .tab-content .card .timeline {
     font-size: 14px;
@@ -62,10 +63,11 @@
   }
   .experience .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .experience .title span {
-    color: #d9ed92;
+    color: blue;
   }
   .experience .buttons {
     display: flex;
@@ -86,16 +88,16 @@
     height: 60px;
     width: auto;
     font-weight: bold;
-    color: #34a0a4;
+    color: black;
   }
   .experience button.active {
-    border-bottom: 3px solid #d9ed92;
+    border-bottom: 3px solid brown;
   }
   .experience .content {
     transition: opacity 5s ease;
     margin: 0 15%;
     padding: 20px;
-    border-left: 1px solid #d9ed92;
+    border-left: 1px solid black;
     margin-top: 50px;
   }
   .experience .tab-content {
@@ -104,6 +106,9 @@
   .experience .tab-content .card .title {
     margin: 10px 0px;
     font-size: 18px;
+  }
+  .experience .tab-content .card .title span{
+    color: brown;
   }
   .experience .tab-content .card .timeline {
     font-size: 14px;
@@ -120,57 +125,64 @@
 }
 @media screen and (min-width : 900px){
   .experience {
-    width: 100%;
-    padding: 150px 0;
+    padding: 0px 80px;
   }
   .experience .title {
-    font-size: 20px;
-    color: #d9ed92;
+    font-size: 25px;
+    color: tomato;
+    font-weight: bold;
   }
   .experience .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .experience .buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: right;
-    margin: 20px 30%;
+    margin: 20px 0%;
     width: auto;
     align-items: center;
   }
   .experience button {
     font-size: 18px;
-    padding: 8px 15px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
     transition: black 0.3s ease;
     height: 60px;
     width: auto;
     font-weight: bold;
-    color: #34a0a4;
+    color: black;
   }
   .experience button.active {
-    border-bottom: 3px solid #d9ed92;
+    border-bottom: 3px solid brown;
   }
   .experience .content {
     transition: opacity 5s ease;
-    margin: 0 25%;
     padding: 20px;
-    border-left: 1px solid #d9ed92;
     margin-top: 50px;
   }
   .experience .tab-content {
     display: none;
   }
+  .experience .tab-content .card{
+    border-left: 5px solid black;
+    padding: 20px;
+  }
   .experience .tab-content .card .title {
     margin: 10px 0px;
     font-size: 20px;
+    color: brown;
+  }
+  .experience .tab-content .card .title span{
+    color: tomato;
   }
   .experience .tab-content .card .timeline {
-    font-size: 14px;
+    font-size: 15px;
     margin: 5px 0px;
-    color: #34a0a4;
+    color: blue;
   }
   .experience .tab-content .card .desc {
     margin: 30px 0px;

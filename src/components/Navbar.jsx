@@ -4,8 +4,6 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-  const startTag = "<";
-  const endTag = "/>";
   const [menuToggle, setMenuToggle] = useState(false);
   const [navLinks, setNavLinks] = useState(false);
   const toogleMenu = () => {
@@ -24,22 +22,20 @@ const Navbar = () => {
     <div className="navbar">
       {navLinks && (
         <div className="modal">
-          <a href="#1">01. Home</a>
-          <a href="#2">02. About</a>
-          <a href="#3">03. Experience</a>
-          <a href="#4">04. Work</a>
-          <a href="#5">05. Contact</a>
+          <a href="/">01. Home</a>
+          <a href="/about">02. About</a>
+          <a href="/experience">03. Experience</a>
+          <a href="/work">04. Work</a>
+          <a href="/contact">05. Contact</a>
         </div>
       )}
-      <div className="logo">
-        <span>{startTag}</span>UCMee<span>{endTag}</span>
-      </div>
+      <div className="logo">PE</div>
       <div className="links">
-        <a href="#1">Home</a>
-        <a href="#2">About</a>
-        <a href="#3">Experience</a>
-        <a href="#4">Work</a>
-        <a href="#5">Contact</a>
+        <a href="/">01. Home</a>
+        <a href="/about">02. About</a>
+        <a href="/experience">03. Experience</a>
+        <a href="/work">04. Work</a>
+        <a href="/contact">05. Contact</a>
       </div>
       <div className="menu">
         {menuToggle === false ? (

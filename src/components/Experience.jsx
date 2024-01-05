@@ -13,7 +13,7 @@ const Experience = () => {
   };
   return (
     <div className="experience" id="3" data-aos="zoom-in" data-aos-duration="1500">
-      <div className="title">{"03. Experience/>"}</div>
+      <div className="title"><span>03. </span>Experience{"/>"}</div>
       <div className="buttons">
         <button
           className={activeTab === "internship" ? "active" : ""}

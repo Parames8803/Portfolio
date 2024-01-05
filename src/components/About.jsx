@@ -174,7 +174,7 @@ const About = () => {
         <div className="desc">
           Learn.<br/>
           Code.<br/>
-          Practice.
+          Repeat..
         </div>
         <div className="cards">
           <div className="card1">

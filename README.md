@@ -13,4 +13,8 @@ Currently, two official plugins are available:
 // 600 - 900
 // 900 - 1200
 
+@media screen and (min-width: 900px) {}
+@media screen and (max-width: 900px) and (min-width: 600px) {}
+@media screen and (max-width: 600px) and (min-width: 300px) {}
+
 // npm run dev -- --host

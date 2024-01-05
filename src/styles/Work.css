@@ -1,13 +1,11 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
-  .work {
-    padding-top: 100px;
-  }
   .work .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .work .title span {
-    color: #d9ed92;
+    color: blue;
   }
   .work .cards {
     display: flex;
@@ -16,12 +14,10 @@
     margin-top: 20px;
   }
   .work .cards .card {
-    border: 1px solid gray;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
     padding: 10px 20px;
-    border-radius: 5px;
-  }
-  .work .cards .card {
-    text-decoration: none;
   }
   .work .cards .card .head {
     display: flex;
@@ -35,6 +31,7 @@
   }
   .work .cards .card .title {
     font-size: 20px;
+    color: blue;
   }
   .work .cards .card .desc {
     font-size: 15px;
@@ -45,7 +42,8 @@
     justify-content: space-between;
   }
   .work .cards .card .tools p {
-    color: #34a0a4;
+    color: brown;
+    font-weight: bold;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -68,7 +66,9 @@
     justify-content: center;
   }
   .work .cards .card {
-    border: 1px solid #34a0a4;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
     padding: 10px 20px;
     border-radius: 5px;
     width: 300px;
@@ -101,14 +101,16 @@
 }
 @media screen and (min-width: 900px) {
   .work {
-    padding: 150px 0;
+    padding: 0px 80px;
   }
   .work .title {
-    font-size: 20px;
-    color: #d9ed92;
+    font-size: 25px;
+    color: tomato;
+    font-weight: bold;
   }
   .work .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .work .cards {
     display: flex;
@@ -119,9 +121,10 @@
     justify-content: center;
   }
   .work .cards .card {
-    border: 1px solid #34a0a4;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
     padding: 10px 20px;
-    border-radius: 5px;
     width: 300px;
     height: fit-content;
   }
@@ -137,6 +140,7 @@
   }
   .work .cards .card .title {
     font-size: 20px;
+    color: blue;
   }
   .work .cards .card .desc {
     font-size: 15px;
@@ -147,6 +151,7 @@
     justify-content: space-between;
   }
   .work .cards .card .tools p {
-    color: #34a0a4;
+    color: brown;
+    font-weight: bold;
   }
 }
