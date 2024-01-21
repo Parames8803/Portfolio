@@ -42,24 +42,30 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
+  .about{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+  }
   .about .bigContent {
     display: none;
   }
   .about .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .about .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .about .content {
     margin-top: 50px;
-    justify-content: center;
     margin: 50px 15% 0 15%;
   }
   .about .content .line {
     display: flex;
-    align-items: center;
     margin-top: -20px;
   }
   .about .line .lineNo {
@@ -68,10 +74,10 @@
   }
   .about .line .code {
     font-size: 15px;
-    color: white;
+    color: black;
   }
   .about .line .code .keyWord {
-    color: #d9ed92;
+    color: brown;
   }
   .about .line .code .comments {
     color: gray;
@@ -89,7 +95,9 @@
     padding: 0;
   }
   .about {
-    padding: 0px 80px;
+    padding: 0px 80px 50px 80px;
+    margin: 0 5%;
+    width: 80%;
   }
   .about .title {
     font-size: 25px;

@@ -50,12 +50,20 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
+  .work{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+  }
   .work .title {
     font-size: 20px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .work .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .work .cards {
     display: flex;
@@ -101,7 +109,9 @@
 }
 @media screen and (min-width: 900px) {
   .work {
-    padding: 0px 80px;
+    padding: 0px 80px 50px 80px;
+    margin: 0 5%;
+    width: 80%;
   }
   .work .title {
     font-size: 25px;

@@ -61,6 +61,12 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
+  .experience{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+  }
   .experience .title {
     font-size: 20px;
     color: tomato;
@@ -125,7 +131,9 @@
 }
 @media screen and (min-width : 900px){
   .experience {
-    padding: 0px 80px;
+    padding: 0px 80px 50px 80px;
+    margin: 0 5%;
+    width: 80%;
   }
   .experience .title {
     font-size: 25px;

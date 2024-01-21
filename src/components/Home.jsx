@@ -1,8 +1,11 @@
 import AOS from "aos";
 import React, { useEffect } from "react";
-import userHome from "../assets/images/user.png";
+import userHome from "../assets/images/new1.png";
 import "../styles/Home.css";
-import Animation from "./Animation";
+import About from "../components/About"
+import Experience from "../components/Experience"
+import Work from "../components/Work"
+import Contact from "../components/Contact"
 
 const Home = () => {
   useEffect(() => {
@@ -12,6 +15,7 @@ const Home = () => {
     window.open("/MyResume.pdf", "_blank");
   };
   return (
+    <>
     <div className="home" id="1" data-aos="zoom-in" data-aos-duration="1500">
       <div className="content">
         <div className="title">
@@ -36,6 +40,11 @@ const Home = () => {
         <img src={userHome} />
       </div>
     </div>
+    <About/>
+    <Experience/>
+    <Work/>
+    <Contact/>
+    </>
   );
 };
 

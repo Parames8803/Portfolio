@@ -10,6 +10,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    border-right: 10px outset black;
   }
   .home .content{
     display: flex;
@@ -55,15 +56,23 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
+  .home{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+  }
   .home .user {
     display: none;
   }
   .home .content .title {
     font-size: 25px;
-    color: #d9ed92;
+    color: tomato;
+    font-weight: bold;
   }
   .home .content .title span {
-    color: #d9ed92;
+    color: blue;
+    font-weight: bold;
   }
   .home .content .intro {
     font-family: "Handlee", cursive;
@@ -73,7 +82,7 @@
   }
   .home .content .intro span {
     font-size: clamp(30px, 35px, 40px);
-    color: #d9ed92;
+    color: brown;
   }
   .home .content .desc {
     font-size: 16px;
@@ -111,10 +120,14 @@
 @media screen and (min-width: 900px) {
   .home {
     display: flex;
-    column-gap: 50px;
+    padding: 0px 80px 50px 80px;
+    margin: 0 5%;
+    width: 80%;
   }
   .home .user img {
     width: 500px;
+    border-right: 10px outset black;
+    border-radius: 50%;
   }
   .home .content {
     padding: 0px 80px;
