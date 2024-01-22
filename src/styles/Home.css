@@ -5,12 +5,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-  }
-  .home .user img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border-right: 10px outset black;
+    scroll-behavior: smooth;
   }
   .home .content{
     display: flex;
@@ -61,9 +56,7 @@
     place-items: center;
     text-align: center;
     padding-bottom: 80px;
-  }
-  .home .user {
-    display: none;
+    scroll-behavior: smooth;
   }
   .home .content .title {
     font-size: 25px;
@@ -119,15 +112,12 @@
 }
 @media screen and (min-width: 900px) {
   .home {
-    display: flex;
-    padding: 0px 80px 50px 80px;
+    display: grid;
+    place-items: center;
     margin: 0 5%;
     width: 80%;
-  }
-  .home .user img {
-    width: 500px;
-    border-right: 10px outset black;
-    border-radius: 50%;
+    padding: 0px 80px 50px 80px;
+    scroll-behavior: smooth;
   }
   .home .content {
     padding: 0px 80px;
@@ -144,7 +134,7 @@
     font-family: "Handlee", cursive;
     padding-top: 20px;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
   }
   .home .content .intro span {
     font-size: clamp(30px, 35px, 40px);
@@ -152,21 +142,22 @@
     font-weight: bold;
   }
   .home .content .desc {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 25px;
-    text-align: left;
+    text-align: center;
   }
   .home .content .desc span {
     font-weight: bold;
     color: blue;
   }
   .home .content .connect {
-    margin: 20px 0;
+    margin: 20px 40%;
     padding: 5px 20px;
     font-size: 18px;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
     cursor: pointer;
+    display: grid;
   }
   .home .content .connect:hover {
     background-color: brown;

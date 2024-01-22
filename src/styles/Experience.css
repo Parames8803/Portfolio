@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
-  .experience{
+  .experience {
     padding-bottom: 50px;
   }
   .experience .title {
@@ -12,22 +12,19 @@
   }
   .experience .buttons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: right;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: auto;
-    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
   }
   .experience button {
     font-size: 15px;
-    padding: 8px 15px;
+    padding: 5px 25px;
     border: none;
     cursor: pointer;
     transition: black 0.3s ease;
     height: 60px;
-    width: auto;
+    width: fit-content;
     font-weight: bold;
     color: black;
   }
@@ -41,10 +38,10 @@
     display: none;
   }
   .experience .tab-content .card .title {
-    margin: 10px 0px;
+    margin: 50px 0px 0px;
     font-size: 18px;
   }
-  .experience .tab-content .card .title span{
+  .experience .tab-content .card .title span {
     color: brown;
   }
   .experience .tab-content .card .timeline {
@@ -61,7 +58,7 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
-  .experience{
+  .experience {
     display: grid;
     place-items: center;
     text-align: center;
@@ -113,7 +110,7 @@
     margin: 10px 0px;
     font-size: 18px;
   }
-  .experience .tab-content .card .title span{
+  .experience .tab-content .card .title span {
     color: brown;
   }
   .experience .tab-content .card .timeline {
@@ -129,7 +126,7 @@
     display: block;
   }
 }
-@media screen and (min-width : 900px){
+@media screen and (min-width: 900px) {
   .experience {
     padding: 0px 80px 50px 80px;
     margin: 0 5%;
@@ -173,7 +170,7 @@
   .experience .tab-content {
     display: none;
   }
-  .experience .tab-content .card{
+  .experience .tab-content .card {
     border-left: 5px solid black;
     padding: 20px;
   }
@@ -182,7 +179,7 @@
     font-size: 20px;
     color: brown;
   }
-  .experience .tab-content .card .title span{
+  .experience .tab-content .card .title span {
     color: tomato;
   }
   .experience .tab-content .card .timeline {

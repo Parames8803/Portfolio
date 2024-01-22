@@ -99,5 +99,6 @@
   .footer a span{
     background: transparent;
     color: tomato;
+    margin: 0 10px;
   }
 }

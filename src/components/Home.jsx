@@ -36,9 +36,6 @@ const Home = () => {
           {"Resume"}
         </button>
       </div>
-      <div className="user">
-        <img src={userHome} />
-      </div>
     </div>
     <About/>
     <Experience/>
